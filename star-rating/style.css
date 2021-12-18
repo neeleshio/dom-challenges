@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to right, #232526, #000d1a);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#wrapper, #rating {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+#rating {
+    margin-top: 100px;
+    color: #19eec0;
+    font-size: 40px;
+}
+
+.star {
+    font-size: 70px;
+}

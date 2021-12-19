@@ -2,6 +2,7 @@
     box-sizing: border-box;
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -13,8 +14,8 @@ h1 {
     text-align: center;
     background: linear-gradient(to right, #ff5f6d, #ffc371);
     -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 0;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
 }
 
 #wrapper {

@@ -1,0 +1,40 @@
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#wrapper {
+    border: 5px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: tomato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dddddd;
+}
+
+
+.black {
+    background-color: #111111;
+}
+
+tr #active {
+    background-color: aqua;
+}
+
+tr #diagonal {
+    background-color: blueviolet;
+}

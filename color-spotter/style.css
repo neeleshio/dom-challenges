@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.info {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #000000;
+    border-spacing: 0;
+}
+
+button {
+    margin-top: 30px;
+}
+
+.shake {
+    animation: shake 0.8s infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake {
+    0% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-8px);} 
+    20%, 40%, 60%, 80%,100% {transform: translateX(8px);} 
+ } 
